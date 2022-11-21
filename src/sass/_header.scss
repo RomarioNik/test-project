@@ -6,6 +6,7 @@
   align-items: center;
   padding: 36px 15px;
 }
+
 .logo {
   font-family: 'Homemade Apple';
   font-style: italic;
@@ -15,19 +16,14 @@
   color: #231F20;
   
 }
+
 .nav-list {
   display: flex;
   justify-content: center;
   gap: 30px;
-
-
 }
 
-
-
 .nav-item {
- 
-  
 }
 
 .nav-link {
@@ -47,6 +43,4 @@
   padding: 12px 24px;
   border: 1px solid #F7941E;
     border-radius: 5px;
-    
-
 }
