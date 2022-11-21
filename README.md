@@ -4,8 +4,7 @@ Gift website
 
 ## Секції закріплені за учасниками проекту
 
-1. Тетяна - Header [Скачай и установи](https://nodejs.org/en/) её если
-   необходимо.
+1. Тетяна - Header
 2. ? - section "Gift"
 3. ? - section "About"
 4. IIya - section "Products" (Gifts for all Occasions)
@@ -31,3 +30,7 @@ Gift website
   елементів, що повторюються) Робить лише Тетяна.
 
 - Якщо згадайте, що потрібно ще додати, пишіть)
+
+## index.html
+
+- секции вкладывайте в main (<main class="page"></main>)
