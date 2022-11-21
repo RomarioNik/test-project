@@ -33,4 +33,4 @@ Gift website
 
 ## index.html
 
-- секции вкладывайте в main (<main class="page"></main>)
+- секції вкладайте у тег main
