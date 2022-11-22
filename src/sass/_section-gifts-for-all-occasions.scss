@@ -1,0 +1,98 @@
+// temp styles
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+// ---------------
+
+.gifts-section {
+    background-color: #fff;
+}
+
+.gifts-section-title {
+    font-family: 'Gilroy' sans-serif;
+        font-size: 32px;
+        line-height: 1.19;
+         text-align: center;
+            color: #000000;
+            margin-bottom: 23px;
+}
+
+.gifts-section-text {
+    font-family: 'Gilroy' sans-serif;
+        font-size: 18px;
+        line-height: 1.36;
+        text-align: center;
+            color: #000000;
+            margin-bottom: 64px;
+}
+
+.gifts-container {
+    width: 1200px;
+    padding-top: 96px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 144px;;
+    margin: 0 auto;
+
+}
+
+.gifts-list {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.gift-description {
+    background-color: #fafafa;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+}
+
+.gift-link:hover {
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+}
+
+
+.gift-link:hover > .gift-description {
+        background-color: #ffffff;
+}
+
+.gift-title  {
+    font-family:'Gilroy' sans-serif;
+    margin-bottom: 74px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000000;}
+
+.gift-text {
+    font-family: 'Roboto' sans-serif;
+          font-size: 14px;
+        line-height: 1.36;
+            color: #000000;
+}
