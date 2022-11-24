@@ -1,7 +1,19 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
+@import 'node_modules/modern-normalize/modern-normalize';
+:root {
+    --primary-text-color: #000000;
+    --white-color: #FFFFFF;
+    --accent-color: #F7941E;
+    --section-color: #F1F1F2;
+    --color-logo: #231F20;
+    
+}
 
 body {
+    min-width: 1400px;
     font-family: 'Roboto', sans-serif;
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+
 }
 ul, li {
     list-style: none;
@@ -23,8 +35,10 @@ button {
 }
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
+
 
 
 
