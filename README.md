@@ -1,6 +1,6 @@
 # Team work
 
-Gift website
+Gift website wedpack
 
 ## Секції закріплені за учасниками проекту
 
