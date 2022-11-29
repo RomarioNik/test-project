@@ -20,14 +20,19 @@
 }
 
 .gifts-container {
-  width: 1200px;
+  width: calc(1170px + 30px);
   padding-top: 96px;
   padding-bottom: 144px;
 }
 
 .gifts-list {
   display: flex;
+  justify-content: center;
   gap: 30px;
+}
+
+.gifts-item {
+  width: calc((100% - 90px) / 4);
 }
 
 .gift-description {
@@ -39,6 +44,8 @@
 }
 
 .gift-link {
+  display: block;
+  max-width: 100%;
   transition: filter var(--base-transition);
 }
 
