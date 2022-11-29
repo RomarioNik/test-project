@@ -1,31 +1,121 @@
-.blogs .container {
-  width: 1200px;
-  //   padding-left: 15px;
-  //   padding-right: 15px;
-  //   margin: 0 auto;
-
-  outline: 2px solid red;
+.section-blogs {
+  padding-top: 88px;
+  padding-bottom: 80px;
 }
 
-.blogs .title {
-  margin-bottom: 25px;
+.section-blogs .container {
+  width: 1200px;
+}
+
+.section-blogs .title {
+  margin-bottom: 23px;
 
   font-size: 32px;
   line-height: calc(38 / 32);
   text-align: center;
   text-transform: capitalize;
-
-  color: var(--primary-text-color);
 }
 
-.blogs .text {
-  margin-bottom: 70px;
+.section-blogs .title-text {
+  margin-bottom: 71px;
 
   font-size: 18px;
   line-height: 135.94%;
   /* identical to box height, or 24px */
 
   text-align: center;
+}
+
+.best-way {
+  display: flex;
+  gap: 78px;
+  margin-bottom: 40px;
+
+  background-color: #231f20;
+}
+
+.best-way .text-wrap {
+  margin-top: 63px;
+
+  width: 492px;
+  color: var(--white-color);
+}
+
+.best-way-author {
+  margin-bottom: 27px;
+
+  font-size: 14px;
+  line-height: 140.62%;
+  /* identical to box height, or 20px */
+  text-transform: capitalize;
+}
+
+.best-way-title {
+  margin-bottom: 60px;
+
+  font-size: 48px;
+  line-height: calc(58 / 48);
+}
+
+.best-way-link {
+  font-size: 18px;
+  line-height: 140.62%;
+  /* identical to box height, or 25px */
+  text-transform: capitalize;
+
+  color: var(--white-color);
+
+  transition: color var(--base-transition);
+}
+
+.best-way-link:hover,
+.best-way-link:focus {
+  color: var(--accent-color);
+}
+
+.blogs-list {
+  display: flex;
+  gap: 30px;
+}
+
+.blogs-list-item {
+  padding: 48px 48px 50px;
+
+  transition: box-shadow var(--base-transition);
+}
+
+.blogs-list-item:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.blogs-list-title {
+  margin-bottom: 16px;
+
+  font-size: 24px;
+  line-height: 140.62%;
+  /* or 34px */
+}
+
+.blogs-list-text {
+  margin-bottom: 40px;
+
+  font-size: 18px;
+  line-height: 140.62%;
+  /* or 25px */
+}
+
+.blogs-list-link {
+  font-size: 14px;
+  line-height: 140.62%;
+  /* identical to box height, or 20px */
+  text-transform: capitalize;
 
   color: var(--primary-text-color);
+
+  transition: color var(--base-transition);
+}
+
+.blogs-list-link:hover,
+.blogs-list-link:focus {
+  color: var(--accent-color);
 }
