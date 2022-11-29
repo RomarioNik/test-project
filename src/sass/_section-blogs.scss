@@ -1,13 +1,13 @@
-.blogs-container {
+.blogs .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
+  //   padding-left: 15px;
+  //   padding-right: 15px;
+  //   margin: 0 auto;
 
   outline: 2px solid red;
 }
 
-.blogs-title {
+.blogs .title {
   margin-bottom: 25px;
 
   font-size: 32px;
@@ -18,7 +18,7 @@
   color: var(--primary-text-color);
 }
 
-.blogs-text {
+.blogs .text {
   margin-bottom: 70px;
 
   font-size: 18px;
