@@ -1,67 +1,67 @@
 .gifts-section {
-    background-color: var(--white-color);
+  background-color: var(--white-color);
 }
 
 .gifts-section-title {
-    font-size: 32px;
-    line-height: 1.19;
-    font-weight: 400;
-    text-align: center;
-    color: var(--primary-text-color);
-    margin-bottom: 23px;
+  font-size: 32px;
+  line-height: 1.19;
+  font-weight: 400;
+  text-align: center;
+  color: var(--primary-text-color);
+  margin-bottom: 23px;
 }
 
 .gifts-section-text {
-    font-size: 18px;
-    line-height: 1.36;
-    text-align: center;
-    color: var(--primary-text-color);
-    margin-bottom: 64px;
+  font-size: 18px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--primary-text-color);
+  margin-bottom: 64px;
 }
 
 .gifts-container {
-    width: 1200px;
-    padding-top: 96px;
-    padding-bottom: 144px;
-
+  width: 1200px;
+  padding-top: 96px;
+  padding-bottom: 144px;
 }
 
 .gifts-list {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
-
-
 .gift-description {
-    background-color: #fafafa;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 24px;
-    transition: background-color var(--base-transition), filter var(--base-transition);
+  background-color: #fafafa;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  transition: background-color var(--base-transition);
+}
+
+.gift-link {
+  transition: filter var(--base-transition);
 }
 
 .gift-link:hover,
-.gift-link:focus, {
-    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+.gift-link:focus {
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
 }
-
 
 .gift-link:hover .gift-description,
 .gift-link:focus .gift-description {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .gift-title {
-    margin-bottom: 74px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.2;
-    color: var(--primary-text-color);
+  margin-bottom: 74px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--primary-text-color);
 }
 
 .gift-text {
-    font-size: 14px;
-    line-height: 1.36;
-    color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.36;
+  color: var(--primary-text-color);
 }
