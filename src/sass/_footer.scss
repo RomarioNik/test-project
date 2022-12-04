@@ -1,0 +1,106 @@
+.footer {
+  background-color: #fafafa;
+  display: block;
+}
+
+.footer-container {
+  width: 1000px;
+  font-family: 'Roboto';
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-container {
+  display: flex;
+  border-bottom: 1px solid var(--primary-text-color);
+  padding-top: 115px;
+}
+
+.home-a-ul {
+  font-size: 14px;
+  line-height: 140.62%;
+  margin-left: auto;
+  margin-right: 141px;
+  gap: 81px;
+  padding-bottom: 53px;
+  font-weight: 900;
+  font-family: 'Roboto';
+  display: flex;
+}
+
+.nav-a-ul {
+  font-size: 14px;
+  line-height: 140.62%;
+  margin-right: auto;
+  margin-left: 135px;
+  gap: 54px;
+  padding-bottom: 53px;
+  font-weight: 900;
+  font-family: 'Roboto';
+  display: flex;
+}
+
+.hover:focus,
+.hover:hover {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+  transition: var(--base-transition);
+}
+
+.hover-logo:focus,
+.hover-logo:hover {
+  color: var(--primary-text-color);
+  transition: var(--base-transition);
+}
+
+.footer-logo {
+  font-family: 'Homemade Apple';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--accent-color);
+  padding-bottom: 43px;
+}
+
+.svg-ul {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  margin-bottom: 72px;
+}
+
+.svg-li {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.privacy {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.year {
+  margin-right: 14px;
+  margin-left: auto;
+}
+
+.privasy-p {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 14px;
+  line-height: 140.62%;
+  text-align: center;
+  font-family: 'Roboto';
+  padding-bottom: 35px;
+}
