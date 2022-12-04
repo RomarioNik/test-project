@@ -1,4 +1,17 @@
 
+.hover-logo{
+    cursor: pointer;
+    list-style: none;
+    color: var(--accent-color);
+}
+
+.hover {
+    cursor: pointer;
+    list-style: none;
+    color: var(--primary-text-color);
+}
+
+
 .btn {
     padding: 12px 24px;
 
@@ -53,6 +66,10 @@
     font-weight: 900;
     font-family: 'Roboto';
     display: flex;
+}
+
+.hover{
+    color: var(--primary-text-color);
 }
 
 .hover:focus,
