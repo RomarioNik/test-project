@@ -1,10 +1,9 @@
 .header-container {
-  width: 1135px;
-  margin: 0 auto;
+  max-width: 1135px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 36px 15px;
 }
 
 .logo {
@@ -13,8 +12,14 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 2.16;
-  color: var(--color-logo);
-  
+  color: #231f20;
+
+  transition: color var(--base-transition);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
 }
 
 .nav-list {
@@ -23,24 +28,39 @@
   gap: 30px;
 }
 
-.nav-item {
-}
+
 
 .nav-link {
+  padding-top: 36px;
+  padding-bottom: 36px;
+
   font-size: 18px;
   line-height: 1.14;
-  // color: #000000;
+  color: var(--primary-text-color);
+
+  transition: color var(--base-transition);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
 }
 
 .header-button {
-  font-size: 18px;
-  line-height: 1.22;
   display: flex;
   align-items: center;
+
+  font-size: 18px;
+  line-height: 1.22;
   text-align: center;
-  text-transform: uppercase;
   color: var(--accent-color);
-  padding: 12px 24px;
-  border: 1px solid var(--accent-color);
-    border-radius: 5px;
+
+  transition: color var(--base-transition),
+    background-color var(--base-transition);
+}
+
+.header-button:hover,
+.header-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }

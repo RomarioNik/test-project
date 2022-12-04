@@ -1,7 +1,7 @@
 {
   "name": "test-project",
   "version": "2.0.0",
-  "description": "",
+  "description": "Gift website wedpack",
   "homepage": "https://RomarioNik.github.io/test-project",
   "scripts": {
     "start": "parcel src/index.html",
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "^2.6.0",
+    "parcel": "^2.8.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
